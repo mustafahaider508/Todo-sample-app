@@ -9,8 +9,6 @@ function Card() {
     new Array(todos.length).fill(false)
   );
 
-  console?.log("todos", todos);
-
   const handleChecked = (index: number) => {
     const newCheckedItems = [...checkedItems];
     newCheckedItems[index] = !newCheckedItems[index];
